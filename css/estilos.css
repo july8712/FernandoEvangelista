@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Primera sección del index */
+
+h1 span{
+    display:block;
+}
+
+#bienvenida{
+    background-image: url(../img/bienvenida.jpg);
+}
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+}
+
+/* Logo flotante Whatsapp */
+
+.whatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
