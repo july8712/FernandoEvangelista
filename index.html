@@ -20,8 +20,10 @@
       rel="stylesheet"
     />
     <!-- iconos fontastic -->
-    <link href="https://file.myfontastic.com/gDFbyawvqnZpbcp3YDyBKQ/icons.css" rel="stylesheet">
-
+    <link
+      href="https://file.myfontastic.com/gDFbyawvqnZpbcp3YDyBKQ/icons.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--seccion bienvenida-->
@@ -76,42 +78,53 @@
           espacios verdes de calidad.
         </h1>
       </div>
-     <span class="icon-angle-down flecha"> </span>
+      <span class="icon-angle-down flecha"> </span>
     </div>
     <!-- seccion proyectos realizados -->
     <div class="proyectosContainer">
-     <section id="proyectos">
-      <h2>Proyectos Realizados</h2>
-      <a href="#">+ info</a>
-    </section>   
+      <section id="proyectos" class="textoContainer">
+        <h2 class="textoProyectos">Proyectos Realizados</h2>
+        <a href="#" class="botonMasInfo btn btn-outline-light">+ info</a>
+      </section>
     </div>
-    
+
     <!-- seccion servicios -->
     <div class="serviciosContainer">
-     <section id="servicios">
-      <h2>Servicios</h2>
-      <a href="#">+ info</a>
-    </section>    
+      <section id="servicios" class="textoServiciosContainer">
+        <h2 class="textoServicios">Servicios</h2>
+        <a href="#" class="botonMasInfoServicios btn btn-outline-light"
+          >+ info</a
+        >
+      </section>
     </div>
-   
+
     <!-- footer -->
     <footer class="footerContainer">
-      <img src="img/logo_blanco.png" alt="Logo Fernando Evangelista" />
-      <p>
+      <img
+        src="img/logo_blanco.png"
+        alt="Logo Fernando Evangelista"
+        class="logoFooter"
+      />
+      <p class="textoFooter">
         Ingeniero Agrónomo recibido en la Facultad de Agronomía de Balcarce
         (UNMP).
       </p>
-      <ul>
-        <li>
-          <img src="img/sobre.png" alt="email" /> evangelistafer73@gmail.com
-        </li>
-        <li>
-          <img src="img/sobre.png" alt="email" /> evangelistafer73@gmail.com
-        </li>
-        <li>
-          <img src="img/sobre.png" alt="email" /> evangelistafer73@gmail.com
-        </li>
-      </ul>
+      <div class="listaFooterContainer">
+        <ul class="iconos">
+          <li class="iconoSeparacion">
+            <span class="icon-envelope-o"></span>
+            <p class="textoIcono">evangelistafer73@gmail.com</p>
+          </li>
+          <li class="iconoSeparacion">
+            <span class="icon-instagram"> </span>
+            <p class="textoIcono">evangelistafer73@gmail.com</p>
+          </li>
+          <li class="iconoSeparacion">
+            <span class="icon-phone"></span>
+            <p class="textoIcono">+549 223 5206865</p>
+          </li>
+        </ul>
+      </div>
     </footer>
     <!-- boton whatsapp -->
     <a href="#" class="whatsapp"
