@@ -212,3 +212,11 @@
 .icon-instagram{
   font-size: 3rem;
 }
+
+
+/* Servicios */
+
+.cards-servicios{
+  display: flex;
+  flex-wrap: wrap;
+}
