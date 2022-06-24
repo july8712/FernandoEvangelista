@@ -71,7 +71,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bienvenida.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.5));
+    box-shadow:0px 4px 50px rgba(0, 0, 0, 0.5);
     height: 1000px;
     width: 100%;
     color: white;
@@ -192,6 +192,12 @@ footer ul li{
 footer ul li span{
     margin-right: 10px;
     font-size:30px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 /* Fin Footer */
