@@ -6,9 +6,21 @@
 
 /* Primera sección del index */
 
-/* h1 span {
-  display: block;
-} */
+ h1{
+  font-size: 3.2rem;
+}
+
+.navbar-nav{
+  justify-content:space-between !important;
+}
+
+nav{
+  justify-content: space-between;
+}
+
+nav ul li{
+  /* width:200px */
+}
 
 /* Footer */
 
@@ -61,8 +73,9 @@ z-index: 10;
   border-radius: 10px;
 }
 
-.botonesHeaderContainer {
-  margin-left: 27%;
+#navbarNavDropdown {
+  display: flex;
+  justify-content:flex-end;
 }
 
 .botonHeader {
@@ -80,14 +93,20 @@ z-index: 10;
 
 /* texto header */
 .tituloInicio {
+  background-image:url(../img/proyectos-realizados.jpg);
+  width: 100%;
+  height:982px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
   /* position: absolute; */
   padding-top: 20%;
   padding-left: 3%;
-  width: 30%;
 }
 .textoTitulo {
   font-family: "Open Sans";
   color: #ffffff;
+  width:663px;
 }
 .textoDestacado {
   font-family: "Open Sans";
@@ -96,6 +115,7 @@ z-index: 10;
   font-size: 96px;
   line-height: 131px;
   color: #ffffff;
+  display: block;
 }
 .flecha {
   color: #ffffff;
@@ -106,16 +126,23 @@ z-index: 10;
   text-decoration: none;
 }
 
+.contenedorCentrado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 /* seccion 2: proyectos realizados */
 .proyectosContainer {
-  position: absolute;
+  /* position: absolute; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/proyectos-realizados.jpg);
   background-size: cover;
-  width: 90%;
+  /* width: 90%; */
   height: 100%;
-  left: 5%;
-  margin-top: 3%;
+  /* left: 5%; */
+  margin-top: 50px;
   border-radius: 24px;
 }
 .textoContainer {
@@ -146,21 +173,21 @@ z-index: 10;
 }
 /* seccion 3: servicios  */
 .serviciosContainer {
-  position: absolute;
+  /* position: absolute; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../img/servicios-cortada.jpg);
   background-size: cover;
   width: 90%;
-  height: 100%;
-  left: 5%;
-  margin-top: 60%;
+  /* height: 100%; */
+  /* left: 5%; */
+  margin-top: 50px;
   border-radius: 24px;
 }
 .textoServiciosContainer {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 23%;
   margin-left: 45%;
-
+  height: 855px;
 }
 .textoServicios {
   font-family: "Open Sans";
