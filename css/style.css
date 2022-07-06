@@ -294,8 +294,19 @@ h2 {
     text-align: center;
     font-weight: 700;
 }
-
-/* Fin sección consejos */
+#ypf{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/ypf/ypf4.jpg);
+}
+#plastigas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/plastigas/IMG_7401.jpg);
+}
+#playaGrande{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/playaGrande/20211027_072835.jpg);
+}
+#campoPrivado{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/campoPrivado/campo1.jpg);
+}
+/* Fin sección proyectos */
 
 /* ***************************************************************************************************** */
 
