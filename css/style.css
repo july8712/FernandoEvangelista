@@ -466,6 +466,10 @@ footer ul li span{
         font-size: 35px;
     }
 
+    #servicios h1, #proyectos h1, #consejos h1, #nosotros h1{
+        font-size:50px;
+    }
+
     .bannerPrincipal {
         height: 400px;
     }
@@ -473,6 +477,39 @@ footer ul li span{
     .bannerPrincipal span{
         font-size:20px;
         margin-top: 0;
+    }
+
+    .fila{
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 30px;
+    }
+
+    .columna p{
+        margin-left: 0;
+    }
+
+    #fernando img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #fernando h2{
+        font-size:32px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #fernando{
+        padding:30px 0 0 0;
+    }
+
+    #nosotros h1, #servicios h1{
+        margin-top: 44px;
+    }
+
+    #proyectos h1, #consejos h1 {
+        margin-top: 40px;
     }
 
     footer{
