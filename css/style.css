@@ -394,6 +394,23 @@ footer ul li span{
         font-size:75px;
     }
 
+    #fernando img {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .columna{
+        width:100%;
+    }
+
+    .columna p{
+        margin-left:0;
+    }
+
+    .fila{
+        flex-direction: column;
+    }
+
     footer{
         padding: 40px 35px 30px 35px;
     }
