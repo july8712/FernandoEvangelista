@@ -1,55 +1,336 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://file.myfontastic.com/gDFbyawvqnZpbcp3YDyBKQ/icons.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://file.myfontastic.com/gDFbyawvqnZpbcp3YDyBKQ/icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Consejos | Fernando Evangelista | Paisajismo</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="consejos" class="bannerPrincipal">
-        <header>
-            <nav class="headerContainer navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="Logo Fernando Evangelista"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse botonesHeaderContainer" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="proyectos.html">Proyectos Realizados<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">Consejos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        
-        <h1>Nosotros te ayudamos</h1>
-        
-        <div class="btn-flecha">
-          <a href="#listaServicios"><span class="icon-angle-down flecha"></span></a>
-        </div>
+      <header>
+        <nav
+          class="headerContainer navbar navbar-expand-lg navbar-light bg-light"
+        >
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo.png" alt="Logo Fernando Evangelista"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse botonesHeaderContainer"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="proyectos.html"
+                  >Proyectos Realizados<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Consejos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <h1>Nosotros te ayudamos</h1>
+
+      <div class="btn-flecha">
+        <a href="#listaServicios"
+          ><span class="icon-angle-down flecha"></span
+        ></a>
+      </div>
     </section>
-
-
-    <footer class="footerContainer"  id="contacto">
-        <div>
-            <img src="../img/logo_blanco.png" alt="Logo Fernando Evangelista" class="logoFooter">
-            <p class="textoFooter">Ingeniero Agrónomo recibido en la Facultad de Agronomía de Balcarce(UNMP).</p>
+    <!-- tarjetas -->
+    <div class="contGeneral contServicios">
+      <section id="listaServicios">
+        <div
+          class="cardConsejos"
+          data-toggle="modal"
+          data-target="#asesoramiento"
+        >
+          <div class="imgCardConsejos">
+            <img
+              src="../img/consejos.png"
+              class="card-img-top"
+              alt="Asesoramiento técnico"
+            />
+          </div>
+          <div class="card-body">
+            <h2 class="card-text">Preguntas frecuentes</h2>
+          </div>
         </div>
-        <ul class="iconos">
-          <li><span class="icon-envelope-o"></span>evangelistafer73@gmail.com</li>
-          <li><span class="icon-instagram"></span>@paisajismo.feva</li>
-          <li><span class="icon-phone"></span>+549 223 5206865</li>
-        </ul>
+
+        <div class="cardConsejos" data-toggle="modal" data-target="#disenio">
+          <div class="imgCardConsejos">
+            <img
+              src="../img/consejos.png"
+              class="card-img-top"
+              alt="Diseño de espacios verdes"
+            />
+          </div>
+          <div class="card-body">
+            <h2 class="card-text">Cómo saber que necesitan mis plantas</h2>
+          </div>
+        </div>
+
+        <div class="cardConsejos" data-toggle="modal" data-target="#plantacion">
+          <div class="imgCardConsejos">
+            <img
+              src="../img/consejos.png"
+              class="card-img-top"
+              alt="Plantaciones y parquizaciones en general"
+            />
+          </div>
+          <div class="card-body">
+            <h2 class="card-text">Plantas de interior</h2>
+          </div>
+        </div>
+
+        <div class="cardConsejos" data-toggle="modal" data-target="#plantacion">
+          <div class="imgCardConsejos">
+            <img
+              src="../img/consejos.png"
+              class="card-img-top"
+              alt="Plantaciones y parquizaciones en general"
+            />
+          </div>
+          <div class="card-body">
+            <h2 class="card-text">Qué sembrar segun la epoca del año</h2>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Modales -->
+
+    <div
+      class="modal fade"
+      id="asesoramiento"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="imgCard">
+              <img
+                src="../img/consejos.png"
+                class="card-img-top"
+                alt="Asesoramiento técnico"
+              />
+            </div>
+            <h2 class="card-text mt-4">Preguntas frecuentes</h2>
+          </div>
+          <div class="modal-footer">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusantium rerum delectus cumque, quidem nemo ad omnis ex minus
+              soluta sequi, modi iure quod, ab eum sint cum placeat ratione
+              unde?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="disenio"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-header">
+              <div class="imgCard">
+                <img
+                  src="../img/consejos.png"
+                  class="card-img-top"
+                  alt="Diseño de espacios verdes"
+                />
+              </div>
+            </div>
+            <h2 class="card-text mt-4">Como saber que necesitan mis plantas</h2>
+          </div>
+          <div class="modal-footer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              nostrum numquam magni ad similique, accusamus pariatur cum
+              deleniti reiciendis culpa in deserunt alias nulla sequi provident
+              praesentium rem natus quia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="plantacion"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="imgCard">
+              <img
+                src="../img/consejos.png"
+                class="card-img-top"
+                alt="Plantaciones y parquizaciones en general"
+              />
+            </div>
+            <h2 class="card-text mt-4">plantas de interior</h2>
+          </div>
+          <div class="modal-footer">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
+              ratione aut consectetur iure eaque odit animi totam doloremque
+              voluptates qui, odio voluptas temporibus optio assumenda vel
+              dolores dolore molestiae explicabo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="plantacion"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header p-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="imgCard">
+              <img
+                src="../img/consejos.png"
+                class="card-img-top"
+                alt="Plantaciones y parquizaciones en general"
+              />
+            </div>
+            <h2 class="card-text mt-4">que sembrar segun la epoca del año</h2>
+          </div>
+          <div class="modal-footer">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reprehenderit cupiditate debitis impedit similique in, amet
+              deleniti ullam velit, harum voluptate placeat neque totam itaque a
+              eius magnam ipsa facere doloremque!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footerContainer" id="contacto">
+      <div>
+        <img
+          src="../img/logo_blanco.png"
+          alt="Logo Fernando Evangelista"
+          class="logoFooter"
+        />
+        <p class="textoFooter">
+          Ingeniero Agrónomo recibido en la Facultad de Agronomía de
+          Balcarce(UNMP).
+        </p>
+      </div>
+      <ul class="iconos">
+        <li><span class="icon-envelope-o"></span>evangelistafer73@gmail.com</li>
+        <li><span class="icon-instagram"></span>@paisajismo.feva</li>
+        <li><span class="icon-phone"></span>+549 223 5206865</li>
+      </ul>
     </footer>
 
-    <a href="https://api.whatsapp.com/send?phone=5492235206865&text=Hola,%20quisiera%20informaci%C3%B3n%20de..." class="whatsapp"><img src="../img/whatsapp.png" alt="whatsapp"></a>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-</body>
+    <a
+      href="https://api.whatsapp.com/send?phone=5492235206865&text=Hola,%20quisiera%20informaci%C3%B3n%20de..."
+      class="whatsapp"
+      ><img src="../img/whatsapp.png" alt="whatsapp"
+    /></a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

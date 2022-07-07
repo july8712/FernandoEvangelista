@@ -278,7 +278,22 @@ h2 {
     text-align: center;
     font-weight: 700;
 }
-
+.cardConsejos{
+    width:500px;
+    font-family: "Open Sans";
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+}
+.imgCardConsejos{
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+}
+.imgCardConsejos img{
+    object-fit: cover;
+    height:300px;
+    min-width: 100%;
+}
 /* Fin sección consejos */
 
 /* ***************************************************************************************************** */
@@ -307,7 +322,68 @@ h2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/campoPrivado/campo1.jpg);
 }
 /* Fin sección proyectos */
+/* ***************************************************************************************************** */
 
+/* seccion de ypf */
+#ypf {
+    justify-content: center;
+}
+
+#ypf h1 {
+    font-size: 72px;
+    width: 593px;
+    text-align: center;
+    font-weight: 700;
+}
+.carruselCenter{
+  width: 60%;
+  margin-left: 20%;
+}
+.imgCarrusel{
+   width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* fin seccion ypf */
+/* ***************************************************************************************************** */
+/* seccion playa Grande */
+#playaGrande {
+    justify-content: center;
+}
+
+#playaGrande h1 {
+    font-size: 72px;
+    width: 593px;
+    text-align: center;
+    font-weight: 700;
+}
+/* fin seccion playa Grande */
+/* ***************************************************************************************************** */
+/* seccion plastigas */
+#plastigas {
+    justify-content: center;
+}
+
+#plastigas h1 {
+    font-size: 72px;
+    width: 593px;
+    text-align: center;
+    font-weight: 700;
+}
+/* fin seccion plastigas */
+/* ***************************************************************************************************** */
+/* seccion campo Privado */
+#campoPrivado {
+    justify-content: center;
+}
+
+#campoPrivado h1 {
+    font-size: 72px;
+    width: 593px;
+    text-align: center;
+    font-weight: 700;
+}
+/* fin seccion campo Privado */
 /* ***************************************************************************************************** */
 
 /* Fondos de secciones */
