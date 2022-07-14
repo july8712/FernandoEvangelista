@@ -88,7 +88,7 @@ nav{
 
 #bienvenida h1 {
     font-size: 96px;
-    width: 670px;
+    width: 680px;
     line-height: 65px;
     padding-left: 50px;
 }
@@ -339,6 +339,7 @@ h2 {
 .carruselCenter{
   width: 60%;
   margin-left: 20%;
+
 }
 .imgCarrusel{
    width: 100%;
@@ -461,7 +462,21 @@ footer ul li span{
     bottom: 20px;
     right: 20px;
 }
+.msjeContacto {
+    position: fixed;
+    bottom: 120px;
+    right: 90px;
+    display: none;
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius:15px;
+}
 
+.msjeContacto p {
+    font-weight: 800;
+    margin-bottom: 0;
+}
 /* Fin Footer */
 
 
