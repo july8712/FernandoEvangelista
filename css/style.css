@@ -461,6 +461,24 @@ footer ul li span{
     right: 20px;
 }
 
+.msjeContacto {
+    position: fixed;
+    bottom: 120px;
+    right: 90px;
+    display: none;
+    background-color: #ffffff;
+    opacity: 0.8;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 20px;
+    border-radius:15px;
+}
+
+.msjeContacto p {
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
 /* Fin Footer */
 
 
@@ -523,6 +541,8 @@ footer ul li span{
     footer ul li span{
         font-size:20px;
     }
+
+    
 
     .whatsapp img {
         width: 70px;
