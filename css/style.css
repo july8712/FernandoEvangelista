@@ -168,6 +168,8 @@ h2 {
 
 .columna p{
     margin-left: 50px;
+    line-height: 2;
+    text-align: justify;
 }
 
 #nosotros {
@@ -279,6 +281,7 @@ h2 {
     text-align: center;
     font-weight: 700;
 }
+
 .cardConsejos{
     width:500px;
     font-family: "Open Sans";
