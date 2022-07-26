@@ -1,70 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Estilos generales */
 
 body {
-    font-family: "Open Sans";
+  font-family: "Open Sans";
 }
 
-header{
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    background-color: transparent;
-    position: absolute;
-    top: 20px;
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
 }
 
-nav{
-    border-radius: 10px;
-    width: 90%;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between !important;
+nav {
+  border-radius: 10px;
+  width: 90%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between !important;
 }
 
-
-#navbarNavDropdown{
-    justify-content:flex-end;
+#navbarNavDropdown {
+  justify-content: flex-end;
 }
 
-.navbar-nav{
-    justify-content:flex-end;
+.navbar-nav {
+  justify-content: flex-end;
 }
 
-.navbar-nav li{
-    padding:0 25px;
-    font-size:18px;
+.navbar-nav li {
+  padding: 0 25px;
+  font-size: 18px;
 }
 
-.navbar-brand{
-    padding-top: 10px;
-    margin-left: 20px;
+.navbar-brand {
+  padding-top: 10px;
+  margin-left: 20px;
 }
 
 .nav-link.active {
-    border-bottom: 2px solid rgba(0, 0, 0, .5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
-.nav-link:hover{
-    border-bottom: 2px solid rgba(0, 0, 0, .5);
+.nav-link:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
 .nav-link {
-    border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
-.contGeneral{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contGeneral {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Fin estilos generales */
@@ -74,42 +73,41 @@ nav{
 /* Sección Banner principal */
 
 .bannerPrincipal {
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
-    height: 1000px;
-    width: 100%;
-    color: white;
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+  height: 1000px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
 }
 
 #bienvenida h1 {
-    font-size: 96px;
-    width: 680px;
-    line-height: 65px;
-    padding-left: 50px;
+  font-size: 96px;
+  width: 680px;
+  line-height: 65px;
+  padding-left: 50px;
 }
 
-
-.bannerPrincipal span{
-    display: block;
-    font-size:48px;
-    margin-top: 20px;
+.bannerPrincipal span {
+  display: block;
+  font-size: 48px;
+  margin-top: 20px;
 }
 
 .btn-flecha {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
 
-.btn-flecha a{
-    color: white;
+.btn-flecha a {
+  color: white;
 }
 
 /* Fin sección Bienvenida */
@@ -118,36 +116,35 @@ nav{
 
 /* Secciones del index GRAL */
 h2 {
-    font-size: 48px;
-    font-weight: 600;
+  font-size: 48px;
+  font-weight: 600;
 }
 
-.seccion{
-    background-size: cover;
-    height: 855px;
-    width: 95%;
-    margin: 30px 0;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.seccion {
+  background-size: cover;
+  height: 855px;
+  width: 95%;
+  margin: 30px 0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.seccion div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffffff;
-    
+.seccion div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
 }
 
-.seccion div a{
-    border-radius:100px;
-    width:163px;
-    margin-top: 15px;
-    border: 4px solid #ffffff;
-    font-size:30px;
-    font-weight:700;
+.seccion div a {
+  border-radius: 100px;
+  width: 163px;
+  margin-top: 15px;
+  border: 4px solid #ffffff;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 /* Fin secciones del index GRAL */
@@ -157,46 +154,45 @@ h2 {
 /* Secciones nosotros */
 
 .fila {
-    display: flex;
+  display: flex;
 }
 
 .columna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.columna p{
-    margin-left: 50px;
-    line-height: 2;
-    text-align: justify;
+.columna p {
+  margin-left: 50px;
+  line-height: 2;
+  text-align: justify;
 }
 
 #nosotros {
-    justify-content: center;
+  justify-content: center;
 }
 
 #nosotros h1 {
-    font-size: 72px;
-    width: 593px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  width: 593px;
+  text-align: center;
+  font-weight: 700;
 }
 
-
-#fernando{
-    width:95%;
-    padding: 30px 0 70px 0;
+#fernando {
+  width: 95%;
+  padding: 30px 0 70px 0;
 }
 
-#fernando h2{
-    margin-bottom: 70px;
-    font-size:64px;
-    font-weight:700;
+#fernando h2 {
+  margin-bottom: 70px;
+  font-size: 64px;
+  font-weight: 700;
 }
 
 #fernando img {
-    width:591px;
+  width: 442px;
 }
 
 /* Fin secciones nosotros */
@@ -206,65 +202,67 @@ h2 {
 /* Sección Servicios */
 
 #servicios {
-    justify-content: center;
+  justify-content: center;
 }
 
 #servicios h1 {
-    font-size:72px;
-    font-weight: 700;
+  font-size: 72px;
+  font-weight: 700;
 }
 
 #listaServicios {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    justify-content: space-evenly;
-    padding: 30px 0;
-    gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  gap: 50px;
 }
 
 .card {
-    width:331px;
-    font-family: "Open Sans";
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+  width: 331px;
+  font-family: "Open Sans";
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
-.modal-header{
-    border-bottom:none;
+.modal-header {
+  border-bottom: none;
 }
 
-.modal-footer{
-    border-top:none;
+.modal-footer {
+  border-top: none;
 }
 
-.modal-content{
-    padding:30px;
+.modal-content {
+  padding: 30px;
 }
 
-.imgCard{
-    height:200px;
-    width: 100%;
-    overflow: hidden;
+.imgCard {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
 }
 
-.imgCard img{
-    object-fit: cover;
-    height:200px;
-    min-width: 100%;
+.imgCard img {
+  object-fit: cover;
+  height: 200px;
+  min-width: 100%;
 }
 
-.card-body{
-    text-align:center;
+.card-body {
+  text-align: center;
 }
 
-.card-img,.card-img-bottom,.card-img-top{
-    width: auto;
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: auto;
 }
 
-.card-text{
-    font-size:25px;
-    margin-bottom: 20px;
+.card-text {
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 /* Fin sección servicios */
 
@@ -272,31 +270,31 @@ h2 {
 
 /* Sección Consejos */
 
-#consejos{
-    justify-content: center;
+#consejos {
+  justify-content: center;
 }
 
 #consejos h1 {
-    font-size: 72px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+  font-weight: 700;
 }
 
-.cardConsejos{
-    width:500px;
-    font-family: "Open Sans";
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 10px; 
+.cardConsejos {
+  width: 580px;
+  font-family: "Open Sans";
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
-.imgCardConsejos{
-    height:300px;
-    width: 100%;
-    overflow: hidden;
+.imgCardConsejos {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
 }
-.imgCardConsejos img{
-    object-fit: cover;
-    height:300px;
-    min-width: 100%;
+.imgCardConsejos img {
+  object-fit: cover;
+  height: 300px;
+  min-width: 100%;
 }
 /* Fin sección consejos */
 
@@ -305,88 +303,93 @@ h2 {
 /* Sección Proyectos */
 
 #proyectos {
-    justify-content: center;
+  justify-content: center;
 }
 
 #proyectos h1 {
-    font-size: 72px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  text-align: center;
+  font-weight: 700;
 }
-#ypf{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/ypf/ypf4.jpg);
+#ypf {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/proyectosRealizados/ypf/ypf4.jpg);
 }
-#plastigas{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/plastigas/IMG_7401.jpg);
+#plastigas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/proyectosRealizados/plastigas/IMG_7401.jpg);
 }
-#playaGrande{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/playaGrande/20211027_072835.jpg);
+#playaGrande {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/proyectosRealizados/playaGrande/20211027_072835.jpg);
 }
-#campoPrivado{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectosRealizados/campoPrivado/campo1.jpg);
+#campoPrivado {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/proyectosRealizados/campoPrivado/campo1.jpg);
 }
 /* Fin sección proyectos */
 /* ***************************************************************************************************** */
 
 /* seccion de ypf */
 #ypf {
-    justify-content: center;
+  justify-content: center;
 }
 
 #ypf h1 {
-    font-size: 72px;
-    width: 593px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  width: 593px;
+  text-align: center;
+  font-weight: 700;
 }
-.carruselCenter{
-  width: 60%;
-  margin-left: 20%;
 
+.carousel-inner {
+  width: 90%;
+  height: 700px;
+  margin-left: 5%;
+  border-radius: 10px;
 }
-.imgCarrusel{
-   width: 100%;
-    height: auto;
-    border-radius: 10px;
+.carousel-inner img {
+  object-fit: cover;
+  max-height: 700px;
 }
 /* fin seccion ypf */
 /* ***************************************************************************************************** */
 /* seccion playa Grande */
 #playaGrande {
-    justify-content: center;
+  justify-content: center;
 }
 
 #playaGrande h1 {
-    font-size: 72px;
-    width: 593px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  width: 593px;
+  text-align: center;
+  font-weight: 700;
 }
 /* fin seccion playa Grande */
 /* ***************************************************************************************************** */
 /* seccion plastigas */
 #plastigas {
-    justify-content: center;
+  justify-content: center;
 }
 
 #plastigas h1 {
-    font-size: 72px;
-    width: 593px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  width: 593px;
+  text-align: center;
+  font-weight: 700;
 }
 /* fin seccion plastigas */
 /* ***************************************************************************************************** */
 /* seccion campo Privado */
 #campoPrivado {
-    justify-content: center;
+  justify-content: center;
 }
 
 #campoPrivado h1 {
-    font-size: 72px;
-    width: 593px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 72px;
+  width: 593px;
+  text-align: center;
+  font-weight: 700;
 }
 /* fin seccion campo Privado */
 /* ***************************************************************************************************** */
@@ -394,27 +397,33 @@ h2 {
 /* Fondos de secciones */
 
 #bienvenida {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bienvenida.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banners/bienvenida.jpg);
 }
 
 #proyectos {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/proyectos-realizados.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/banners/proyectos-realizados.jpg);
 }
 
 #servicios {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/servicios-cortada.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/banners/servicios-cortada.jpg);
 }
 
 #nosotros {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/pexels-karolina-grabowska-4207905.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/banners/pexels-karolina-grabowska-4207905.jpg);
 }
 
-#consejos{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/consejos.png);
+#consejos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/banners/consejos.png);
 }
 
-#proyectos{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/proyectos-realizados.jpg);
+#proyectos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/banners/proyectos-realizados.jpg);
 }
 
 /* Fin fondos de secciones */
@@ -423,253 +432,259 @@ h2 {
 
 /* Footer */
 
-footer{
-    background-color: black;
-    color: white;
-    padding: 40px 90px 30px 90px;
-    margin-top: 30px;
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 90px 30px 90px;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer div{
-    display: flex;
-    flex-direction: column;
-    width:411px;
-    line-height: 27px;
+footer div {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  line-height: 27px;
 }
 
-footer div img{
-    width:467px;
-    margin-bottom: 10px;
+footer div img {
+  width: 467px;
+  margin-bottom: 10px;
 }
 
-footer ul li{
-    list-style-type: none;
-    padding:7px 10px;
-    font-size:20px;
-    line-height:35px;
-    display: flex;
-    align-items: center;
+footer ul li {
+  list-style-type: none;
+  padding: 7px 10px;
+  font-size: 20px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
 }
 
-footer ul li span{
-    margin-right: 10px;
-    font-size:30px;
+footer ul li span {
+  margin-right: 10px;
+  font-size: 30px;
 }
 
 .whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
 }
 .msjeContacto {
-    position: fixed;
-    bottom: 120px;
-    right: 90px;
-    display: none;
-    background-color: #ffffff;
-    opacity: 0.8;
-    padding: 20px;
-    border-radius:15px;
+  position: fixed;
+  bottom: 120px;
+  right: 90px;
+  display: none;
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 15px;
+    z-index: 9999;
 }
 
 .msjeContacto p {
-    font-weight: 800;
-    margin-bottom: 0;
+  font-weight: 800;
+  margin-bottom: 0;
 }
 /* Fin Footer */
 
-
 /* Tablet */
 
-@media (max-width: 980px){
-    .bannerPrincipal{
-        height:700px;
-        background-position: center;
-    }
+@media (max-width: 980px) {
+  .bannerPrincipal {
+    height: 700px;
+    background-position: center;
+  }
 
-    .bannerPrincipal span{
-        margin-top:0;
-        font-size:22px;
-    }
+  .bannerPrincipal span {
+    margin-top: 0;
+    font-size: 22px;
+  }
 
-    #bienvenida h1{
-        font-size:75px;
-    }
+  #bienvenida h1 {
+    font-size: 75px;
+  }
 
-    #fernando img {
-        width: 100%;
-        margin-bottom: 60px;
-    }
+  #fernando img {
+    width: 100%;
+    margin-bottom: 60px;
+  }
 
-    .columna{
-        width:100%;
-    }
+  .columna {
+    width: 100%;
+  }
 
-    .columna p{
-        margin-left:0;
-    }
+  .columna p {
+    margin-left: 0;
+  }
 
-    .fila{
-        flex-direction: column;
-    }
+  .fila {
+    flex-direction: column;
+  }
 
-    footer{
-        padding: 40px 35px 30px 35px;
-    }
+  footer {
+    padding: 40px 35px 30px 35px;
+  }
 
-    footer div{
-        width:50%;
-    }
+  footer div {
+    width: 50%;
+  }
 
-    footer div img{
-        width: 330px;
-    }
+  footer div img {
+    width: 330px;
+  }
 
-    footer ul{
-        width:50%;
-        margin-left: 55px;
-    }
+  footer ul {
+    width: 50%;
+    margin-left: 55px;
+  }
 
-    footer ul li{
-        font-size: 16px;
-        line-height:16px;
-    }
+  footer ul li {
+    font-size: 16px;
+    line-height: 16px;
+  }
 
-    footer ul li span{
-        font-size:20px;
-    }
+  footer ul li span {
+    font-size: 20px;
+  }
 
-    .whatsapp img {
-        width: 70px;
-    }
+  .whatsapp img {
+    width: 70px;
+  }
 }
 
 /* Celular */
 
 @media (max-width: 620px) {
-    .navbar-nav{
-        margin-top:20px;
-    }
+  .navbar-nav {
+    margin-top: 20px;
+  }
 
-    .navbar-brand img{
-        width:200px;
-    }
+  .navbar-brand img {
+    width: 200px;
+  }
 
-    #bienvenida h1{
-        font-size:45px;
-        line-height:34px;
-        margin-top: 60px;
-    }
+  #bienvenida h1 {
+    font-size: 45px;
+    line-height: 34px;
+    margin-top: 60px;
+  }
 
-    #bienvenida h1 span{
-        margin-top:40px;
-    }
+  #bienvenida h1 span {
+    margin-top: 40px;
+  }
 
-    .seccion div a{
-        width: 110px;
-        font-size: 20px;
-        border: 3px solid #fff;
-    }
+  .seccion div a {
+    width: 110px;
+    font-size: 20px;
+    border: 3px solid #fff;
+  }
 
-    #proyectos h2{
-        text-align: center;  
-        line-height: 50px;  
-    }
+  #proyectos h2 {
+    text-align: center;
+    line-height: 50px;
+  }
 
-    .seccion{
-        width:90%;
-        height:300px;
-    }
+  .seccion {
+    width: 90%;
+    height: 300px;
+  }
 
-    h2{
-        font-size: 35px;
-    }
+  h2 {
+    font-size: 35px;
+  }
 
-    #servicios h1, #proyectos h1, #consejos h1, #nosotros h1{
-        font-size:50px;
-    }
+  #servicios h1,
+  #proyectos h1,
+  #consejos h1,
+  #nosotros h1 {
+    font-size: 50px;
+  }
 
-    .bannerPrincipal {
-        height: 400px;
-    }
+  .bannerPrincipal {
+    height: 400px;
+  }
 
-    .bannerPrincipal span{
-        font-size:20px;
-        margin-top: 0;
-    }
+  .bannerPrincipal span {
+    font-size: 20px;
+    margin-top: 0;
+  }
 
-    .fila{
-        flex-direction: column;
-        align-items: center;
-        padding: 25px 30px;
-    }
+  .fila {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 30px;
+  }
 
-    .columna p{
-        margin-left: 0;
-    }
+  .columna p {
+    margin-left: 0;
+  }
 
-    #fernando img{
-        width: 100%;
-        margin-bottom: 40px;
-    }
+  #fernando img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 
-    #fernando h2{
-        font-size:32px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+  #fernando h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-    #fernando{
-        padding:30px 0 0 0;
-    }
+  #fernando {
+    padding: 30px 0 0 0;
+  }
 
-    #nosotros h1, #servicios h1{
-        margin-top: 44px;
-    }
+  #nosotros h1,
+  #servicios h1 {
+    margin-top: 44px;
+  }
 
-    #proyectos h1, #consejos h1 {
-        margin-top: 40px;
-    }
+  #proyectos h1,
+  #consejos h1 {
+    margin-top: 40px;
+  }
 
-    footer{
-        flex-direction: column;
-    }
+  footer {
+    flex-direction: column;
+  }
 
-    footer div{
-        align-items: center;
-        width: 100%;
-    }
+  footer div {
+    align-items: center;
+    width: 100%;
+  }
 
-    footer div img{
-        width: 300px;
-    }
+  footer div img {
+    width: 300px;
+  }
 
-    footer div p{
-        text-align: center;
-        width:330px;
-        font-size: 0.8rem;
-        margin-top: 12px;
-    }
+  footer div p {
+    text-align: center;
+    width: 330px;
+    font-size: 0.8rem;
+    margin-top: 12px;
+  }
 
-    footer ul{
-        width: 100%;
-        margin-top: 7px;
-    }
+  footer ul {
+    width: 100%;
+    margin-top: 7px;
+  }
 
-    footer ul li{
-        font-size:14px;
-        line-height:20px;
-    }
+  footer ul li {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
-    footer ul li span{
-        font-size: 14px;
-    }
+  footer ul li span {
+    font-size: 14px;
+  }
 
-    .whatsapp img{
-        width:50px;
-    }
+  .whatsapp img {
+    width: 50px;
+  }
 }
